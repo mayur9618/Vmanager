@@ -1698,7 +1698,7 @@ const RAZORPAY_KEY = "rzp_test_YOUR_KEY_HERE";
 const PLANS = [
   { id: "monthly",  label: "Monthly",  price: 49900,  display: "₹499",   desc: "Per month · Cancel anytime",  popular: false },
   { id: "yearly",   label: "Yearly",   price: 299900, display: "₹2,999", desc: "Per year · Save 50%",          popular: true  },
-  { id: "lifetime", label: "Lifetime", price: 499900, display: "₹4,999", desc: "One time · Forever access",    popular: false },
+  { id: "lifetime", label: "Lifetime", price: 000, display: "₹4,999", desc: "One time · Forever access",    popular: false },
 ];
 
 function loadRazorpay() {
