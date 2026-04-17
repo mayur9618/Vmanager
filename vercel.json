@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "framework": "create-react-app",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "env": {
+    "CI": "false",
+    "DISABLE_ESLINT_PLUGIN": "true",
+    "GENERATE_SOURCEMAP": "false"
+  },
+  "routes": [
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/manifest.json", "dest": "/manifest.json" },
+    { "src": "/sw.js", "dest": "/sw.js" },
+    { "src": "/icon.svg", "dest": "/icon.svg" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
